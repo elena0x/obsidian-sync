@@ -1,247 +1,164 @@
-# AI Builders Digest
-**Date:** 2026-04-27 | **Language:** English + 中文
+# AI Builders Digest | AI 建设者摘要
+
+**Date | 日期:** 2026-04-26
+**Language | 语言:** English + Chinese (Bilingual)
 
 ---
 
-## 𝕏 X/Twitter Highlights
+## X/Twitter Updates | X/Twitter 更新
 
-### Peter Yang | Product at Roblox
-**Bio:** I share extremely practical AI tutorials and interviews
+### Aaron Levie | Box CEO
+**[@levie](https://x.com/levie)**
 
-**Key Takeaway:** In a conversation with a16z GP about AI agents and the future of work:
-1. **Coding will eat all knowledge work** — AI coding agents now handle the first 80% of work (docs, slides, analytics), leaving 20% for manual polish.
-2. **Small teams will outperform large orgs** — 2-3 person product teams with agent swarms will replace overstaffed companies.
-3. **Task-focused apps will shrink** — Once agents are wired to APIs (Google Workspace, Mercury), users stop opening those apps directly. Entertainment apps will outlast productivity apps.
-4. **Personal agents will understand us deeply** — His OpenClaw reminded him: "Your kids are 7 and 4. They're going to grow up soon — optimize for spending time with them."
-5. **Human ambition has no ceiling** — The job market shift will drive more one-person companies and small teams.
+> When you have agents going out and doing work for you, the work just moved up a layer of abstraction. Now the work is figuring out what to tell the agent to do, ensuring you give it proper instructions, getting needed context to the agent to do its tasks, intervening when it goes off task, reviewing the final work, and incorporating the output into something else.
 
-🔗 https://x.com/petergyang/status/2041331383344443795
+> 当你需要 AI agent 帮你完成工作时，工作只是上升了一个抽象层。现在的任务是 figuring out 告诉 agent 做什么、确保给出正确的指令、为 agent 提供完成任务所需的上下文、在 agent 偏离时进行干预、审查最终工作成果，并将输出整合到其他内容中。
+
+**[View Tweet | 查看推文](https://x.com/levie/status/2041347596342460439)**
 
 ---
 
-**要点：** 在与 a16z GP 关于 AI agent 和未来工作的对话中：
-1. **编程将吞噬所有知识工作** — AI 编码 agent 现在能完成前 80% 的工作（文档、幻灯片、分析），只剩 20% 需要手动完善。
-2. **小团队将超越大组织** — 2-3 人的产品团队配合 agent 集群将取代臃肿的公司。
-3. **任务型应用将萎缩** — 一旦 agent 连接到 API（Google Workspace、Mercury），用户不再直接打开这些应用。娱乐应用将比生产力应用更持久。
-4. **个人 agent 会深刻理解我们** — 他的 OpenClaw 提醒他："你的孩子分别是 7 岁和 4 岁。他们很快就会长大——优先花时间陪他们。"
-5. **人类野心无止境** — 就业市场的变化将推动更多单人公司和小型团队的出现。
+### Garry Tan | YC President
+**[@garrytan](https://x.com/garrytan)**
 
-🔗 https://x.com/petergyang/status/2041331383344443795
+> GStack doesn't give you money (it gives you free skills) but YC AI Stack can give you $25k in free credits.
 
----
+> GStack 不给你钱（它给你免费技能），但 YC AI Stack 可以给你 25,000 美元的免费积分。
 
-### Aaron Levie | CEO @ Box
-**Bio:** CEO @box - your business lives in content. unleash it with AI
+> Attackers can exfiltrate user files from Cowork by exploiting an unremediated vulnerability in Claude's coding environment.
 
-**Key Takeaway:** AI agents haven't eliminated work — they've moved it up a layer of abstraction. Now the work is:
-- Figuring out what to tell the agent to do
-- Ensuring proper instructions
-- Getting needed context to the agent
-- Intervening when it goes off task
-- Reviewing final work
-- Incorporating output into something else
+> 攻击者可以通过利用 Claude 编码环境中一个尚未修复的漏洞，从 Cowork 中窃取用户文件。
 
-"AI Agents haven't changed any of this. We're going to automate away the annoying parts of work and keep the more enjoyable parts. But the work is still there, just different."
-
-🔗 https://x.com/levie/status/2041347596342460439
+**[View Tweet 1 | 查看推文1](https://x.com/garrytan/status/2041389865426878807)**
+**[View Tweet 2 | 查看推文2](https://x.com/garrytan/status/2041388847930712399)**
 
 ---
 
-**要点：** AI agent 没有消除工作——它把工作往上移了一层抽象。现在的工作变成：
-- 弄清楚要告诉 agent 做什么
-- 确保给出正确的指令
-- 为 agent 提供所需的上下文
-- 当它偏离任务时进行干预
-- 审核最终工作
-- 将输出整合到其他工作中
+### Dan Shipper | Every CEO
+**[@danshipper](https://x.com/danshipper)**
 
-"AI agent 并没有改变这一切。我们将自动化工作中恼人的部分，保留更有趣的部分。但工作仍然存在，只是形式不同了。"
+> The idea that organizations don't need hierarchies anymore because of AI is silly — for sure, there's an opportunity for fewer layers of middle management. But every experience I've had with agents leads me to believe that specialization and therefore hierarchy is extremely valuable.
 
-🔗 https://x.com/levie/status/2041347596342460439
+> 认为组织不再需要层级结构是因为 AI，这是很愚蠢的——当然，中层管理人员的机会确实减少了。但我的经验表明，专业化以及因此产生的层级结构是非常有价值的。
+
+**[View Tweet | 查看推文](https://x.com/levie/status/2041302485315248595)**
 
 ---
 
-### Dan Shipper | CEO @ Every
-**Bio:** CEO @every | the only subscription you need to stay at the edge of AI
+### Peter Yang | Roblox
+**[@petergyang](https://x.com/petergyang)**
 
-**Key Takeaway:** 
-- "The idea that organizations don't need hierarchies anymore because of AI is silly. For sure, there's an opportunity for fewer layers of middle management. But every experience I've had with agents leads me to believe that specialization and therefore hierarchy is extremely valuable."
+> I had a wonderful chat with my friend about the future of work in an AI agent first world:
+> 1. Coding will eat all knowledge work
+> 2. Small teams will outperform large orgs
+> 3. Apps for completing tasks will shrink
+> 4. We'll all have personal agents that understand us deeply
 
-- Their realtime AI headline tracker now uses Spiral as its lead writer, finding and writing top stories every 30 minutes.
+> 我和朋友聊了聊 AI agent 首先世界里工作的未来：
+> 1. 编码将吞噬所有知识工作
+> 2. 小团队将超越大组织
+> 3. 完成任务的 APP 将萎缩
+> 4. 我们都将拥有深入理解我们的个人 agent
 
-🔗 https://x.com/danshipper/status/2041302485315248595
-🔗 https://x.com/danshipper/status/2041273698452136210
-
----
-
-**要点：** 
-- "认为组织因为 AI 就不再需要层级制度的想法是愚蠢的。当然，中层管理层的层级有望减少。但我使用 agent 的所有经验表明，专业化以及因此产生的层级是非常有价值的。"
-
-- 他们的实时 AI 头条追踪器现在使用 Spiral 作为主笔，每 30 分钟发现并撰写热门故事。
-
-🔗 https://x.com/danshipper/status/2041302485315248595
-
----
-
-### Thariq | Claude Code @ AnthropicAI
-**Bio:** Claude Code @anthropicai
-
-**Key Takeaway:** Running calls with users to understand how Claude Code usage works, specifically for users who ran out of MAX 20x plan tokens unexpectedly early. Trying to improve usage visibility.
-
-🔗 https://x.com/trq212/status/2041252127943877068
-
----
-
-**要点：** 正在与用户通话以了解 Claude Code 的使用情况，特别是那些 MAX 20x 计划 tokens 意外提前用完的用户。努力改进使用量的透明度。
-
-🔗 https://x.com/trq212/status/2041252127943877068
-
----
-
-### Garry Tan | President & CEO @ Y Combinator
-**Bio:** President & CEO @ycombinator
-
-**Key Takeaway:** 
-1. **YC AI Stack** offers $25k in free credits (vs GStack which gives free skills).
-2. **Security warning:** Attackers can exfiltrate user files from Cowork by exploiting an unremediated vulnerability in Claude's coding environment (first identified by Johann Rehberger).
-
-🔗 https://x.com/garrytan/status/2041389865426878807
-🔗 https://x.com/garrytan/status/2041388847930712399
-
----
-
-**要点：** 
-1. **YC AI Stack** 提供 25,000 美元的免费积分（GStack 则提供免费技能）。
-2. **安全警告：** 攻击者可以通过利用 Claude 编码环境中一个未修复的漏洞（由 Johann Rehberger 首次发现）从 Cowork 中窃取用户文件。
-
-🔗 https://x.com/garrytan/status/2041389865426878807
-🔗 https://x.com/garrytan/status/2041388847930712399
+**[View Tweet | 查看推文](https://x.com/petergyang/status/2041331383344443795)**
 
 ---
 
 ### Zara Zhang | Builder
-**Bio:** Builder. Dangerously skips permissions.
+**[@zarazhangrui](https://x.com/zarazhangrui)**
 
-**Key Takeaway:** 
-- Using Fish Audio API to generate personalized podcasts. Skill coming soon.
-- "Before shipping a product built with AI, the most important step is to think about what features you can CUT, not what features you can add"
+> Before shipping a product built with AI, the most important step is to think about what features you can CUT, not what features you can add.
 
-🔗 https://x.com/zarazhangrui/status/2041225124490420239
-🔗 https://x.com/zarazhangrui/status/2041196551113179296
+> 在推出 AI 构建的产品之前，最重要的步骤是思考可以削减哪些功能，而不是可以添加哪些功能。
 
----
-
-**要点：** 
-- 正在使用 Fish Audio API 生成个性化播客。技能即将发布。
-- "在推出基于 AI 构建的产品之前，最重要的步骤是思考你可以**削减**哪些功能，而不是可以添加哪些功能。"
-
-🔗 https://x.com/zarazhangrui/status/2041225124490420239
-🔗 https://x.com/zarazhangrui/status/2041196551113179296
+**[View Tweet | 查看推文](https://x.com/zarazhangrui/status/2041196551113179296)**
 
 ---
 
-### Nikunj Kothari | Partner @ FPV Ventures
-**Bio:** Partner @fpvventures - investing in seed/A
+### Thariq | Anthropic
+**[@trq212](https://x.com/trq212)**
 
-**Key Takeaway:** Anthropic added $21B in the last 3 months and $11B annualized run rate revenue in the last month alone — reaching $11B/month!
+> If your MAX 20x plan ran out of tokens unexpectedly early and you're willing to screenshare and run some prompts through Claude Code please comment. Trying to figure out how we can improve /usage to give more info.
 
-🔗 https://x.com/nikunj/status/2041291304387444991
+> 如果你的 MAX 20x 计划意外提前耗尽 tokens，并且愿意屏幕共享并运行一些提示词，请评论。我想知道如何改进 /usage 以提供更多信息。
 
----
-
-**要点：** Anthropic 在过去 3 个月增加了 210 亿美元，上个月单月年化运行率收入达到 110 亿美元——相当于每月 11B 美元！
-
-🔗 https://x.com/nikunj/status/2041291304387444991
+**[View Tweet | 查看推文](https://x.com/trq212/status/2041252127943877068)**
 
 ---
 
-## 🎙️ Podcast Spotlight
+### Nikunj Kothari | FP Ventures
+**[@nikunj](https://x.com/nikunj)**
 
-### Latent Space: Mistral's Voice Strategy
-**Episode:** Mistral: Voxtral TTS, Forge, Leanstral & what's next for Mistral 4
-**Guests:** Pavan Kumar Reddy (Audio Research Lead), Guillaume Lample (Chief Scientist)
-**URL:** https://www.youtube.com/@LatentSpacePod
+> Added $21B in the last 3 months and $11B annualized run rate revenue in the last month alone... holy what @AnthropicAI 🤯
 
-**Key Highlights:**
+> 过去 3 个月增加了 210 亿美元，上个月单月经常性收入达到 110 亿美元... @AnthropicAI 太强了 🤯
 
-**1. Voxtral TTS — First Open-Weight Speech Generation Model**
-- 9 languages supported
-- 3B parameter model (small, fast, cost-effective)
-- Based on Minestral backbone with novel autoregressive flow matching architecture
-- In-house neural audio codec (12.5 Hz semantic + acoustic tokens)
-- Open weights released
-
-**2. Why Flow Matching for Audio?**
-- Unlike text (single token prediction), audio has high entropy — the same word can be pronounced many ways
-- Depth transformers (predicting K tokens autoregressively) are latency-heavy
-- Flow matching reduces inference to ~16 steps vs hundreds
-- Can potentially go to single-step generation
-
-**3. The Voice Agent Vision**
-- Goal: Full duplex voice (speak while listening)
-- Currently: Step-by-step (transcription → reasoning → TTS)
-- Voice agents need extreme low latency streaming
-- Customers are asking for voice capabilities
-
-**4. Enterprise Strategy**
-- Customers want data privacy (on-premise deployment)
-- Want to leverage their own data for fine-tuning (vs closed models)
-- Forge platform: unified fine-tuning for Voxtral STT and TTS
-- Can achieve 10x cost reduction vs closed-source alternatives
-
-**5. Open Source Philosophy**
-- "We really don't want to live in a world where the smartest models are only behind closed doors"
-- Leanstral: Formal math/proving (using Lean theorem prover)
-- Transfer learning from formal reasoning improves general reasoning
-
-**6. Future Directions**
-- Integration of more capabilities: coding, reasoning, legal, finance, CAD
-- AI for science partnerships (physics, materials science)
-- Next Mistral 4 will merge individual capability teams into one model
-
-🔗 https://www.youtube.com/@LatentSpacePod
+**[View Tweet | 查看推文](https://x.com/nikunj/status/2041291304387444991)**
 
 ---
 
-**播客亮点：**
+### Peter Steinberger | OpenClaw
+**[@steipete](https://x.com/steipete)**
 
-**1. Voxtral TTS — 首个开源语音生成模型**
-- 支持 9 种语言
-- 30 亿参数（小、快、成本低）
-- 基于 Minestral 骨干，采用新型自回归流匹配架构
-- 自研神经音频编解码器（12.5 Hz 语义 + 声学 token）
-- 开源权重
+> ̶p̶o̶p̶ geek culture
 
-**2. 为什么音频用流匹配？**
-- 与文本（单一 token 预测）不同，音频熵值很高——同一个词可以有多种发音方式
-- 深度变换器（自回归预测 K 个 token）延迟高
-- 流匹配将推理步骤从数百步减少到约 16 步
-- 有望实现单步生成
+> 流行极客文化
 
-**3. 语音 agent 愿景**
-- 目标：全双工语音（边说边听）
-- 当前：分步进行（转录 → 推理 → TTS）
-- 语音 agent 需要极低延迟流式处理
-- 客户对语音能力的需求强烈
-
-**4. 企业战略**
-- 客户需要数据隐私（本地部署）
-- 希望利用自己的数据进行微调（对比闭源模型）
-- Forge 平台：统一的 Voxtral STT 和 TTS 微调
-- 相比闭源替代方案可实现 10 倍成本降低
-
-**5. 开源理念**
-- "我们真的不想生活在一个只有闭源门后才能有最聪明模型的世界"
-- Leanstral：形式化数学/证明（使用 Lean 定理证明器）
-- 形式化推理的迁移学习可改进通用推理
-
-**6. 未来方向**
-- 整合更多能力：编程、推理、法律、金融、CAD
-- AI for science 合作（物理、材料科学）
-- 下一个 Mistral 4 将把各能力团队合并为一个模型
-
-🔗 https://www.youtube.com/@LatentSpacePod
+**[View Tweet | 查看推文](https://x.com/steipete/status/2041225122866938364)**
 
 ---
 
-*Generated by AI Builders Digest | 由 AI Builders Digest 自动生成*
+## Podcast Spotlight | 播客焦点
+
+### Latent Space Podcast
+**Episode | 单集:** [Mistral: Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4](https://www.youtube.com/@LatentSpacePod)
+
+**Guests | 嘉宾:**
+- Pavan Kumar Reddy (Head of Audio Research, Mistral)
+- Guillaume Lample (Chief Scientist, Mistral)
+
+#### Key Insights | 关键见解
+
+**Voxtral TTS - Speech Generation | 语音生成**
+> Mistral released Voxtral TTS, their first speech generation model. It's a 3B model that supports 9 languages and is extremely cost-effective — only a fraction of competitors' cost. The model uses a novel autoregressive flow matching architecture with an in-house neural audio codec.
+
+> Mistral 发布 了 Voxtral TTS，这是他们的第一个语音生成模型。这是一个 30 亿参数的模型，支持 9 种语言，成本极低——仅为竞争对手成本的一小部分。该模型采用了新颖的自回归流匹配架构和自研的神经音频编解码器。
+
+**Flow Matching for Audio | 音频流匹配**
+> Unlike text where one token corresponds to one word, audio has much higher entropy. The same word can be spoken in countless ways. Flow matching models this distribution better than discrete token prediction, allowing inference in just 4-16 steps.
+
+> 与文本中一个词对应一个 token 不同，音频的熵要高得多。同一个词可以用无数种方式说出来。流匹配比离散 token 预测更好地建模这种分布，只需 4-16 步即可推理。
+
+**Voice Agents | 语音 Agent**
+> The key application is real-time streaming for voice agents. The full duplex model (speaking while listening) is the goal, but Mistral is taking it step by step — transcription first, then speech generation, then combining everything.
+
+> 核心应用是语音 Agent 的实时流式传输。全双工模型（边听边说）是目标，但 Mistral 正在逐步实现——先转录，再语音生成，然后整合一切。
+
+**Open Source | 开源**
+> "We really don't want to be living in a world where the smartest model, the best models are only behind closed doors, only accessible to a few companies. We want intelligence to be used and accessible by anyone."
+
+> "我们真的不想生活在最聪明的模型，最好的模型只藏在闭门之后，只有少数公司可以访问的世界。我们希望任何人都能使用和访问智能。"
+
+**[Listen | 收听](https://www.youtube.com/@LatentSpacePod)**
+
+---
+
+## Summary | 摘要
+
+**Today's Highlights | 今日要点:**
+- **Agent Workflow:** Aaron Levie explains that AI agents shift work up a layer — you're now the editor/manager, not the doer
+- **Specialization:** Dan Shipper argues hierarchy remains valuable even with AI agents
+- **Cut Features:** Zara Zhang's insight: think about what to CUT, not what to add
+- **Mistral TTS:** New open-source TTS model with flow matching, 9 languages, 10x cheaper
+- **Anthropic Growth:** $21B revenue added in 3 months, $11B monthly run rate
+
+**今日要点：**
+- **Agent 工作流：** Aaron Levie 解释 AI agent 将工作提升一层——你现在是编辑/ manager，而不是执行者
+- **专业化：** Dan Shipper 认为即使有 AI agent，层级仍然有价值
+- **精简功能：** Zara Zhang 的洞察：思考要削减什么，而不是添加什么
+- **Mistral TTS：** 采用流匹配的新开源 TTS 模型，9 种语言，便宜 10 倍
+- **Anthropic 增长：** 3 个月增加 210 亿美元收入，月经常性收入 110 亿美元
+
+---
+
+*Generated by AI Builders Digest | 由 AI Builders Digest 生成*
