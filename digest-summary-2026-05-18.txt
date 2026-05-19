@@ -1,0 +1,13 @@
+AI Builders Digest — May 18, 2026
+
+Summary:
+- Generated bilingual digest from follow-builders feed (snapshot: April 7, 2026)
+- Covered 11 builders on X/Twitter + 1 Latent Space podcast episode
+- Key themes: AI agent work abstraction (Levie), coding agents eating knowledge work (Yang), context rot & specialization (Shipper), Anthropic growth ($21B/3mo), Mistral's Voxtral TTS open weights
+- Files written: digest-2026-05-18.md, latest.md
+- Git commit: 2f5bf2a "AI Builders Digest - 2026-05-18"
+- Git push: Attempted but hanging (likely network/auth issue with GitHub). Commit is local and ready.
+
+Files:
+- /root/.openclaw/workspace/obsidian-sync-local/digest-2026-05-18.md
+- /root/.openclaw/workspace/obsidian-sync-local/latest.md
