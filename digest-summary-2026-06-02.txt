@@ -1,0 +1,28 @@
+AI Builders Digest — 2026-06-02
+
+## Summary
+
+Generated bilingual (English + Chinese) digest from follow-builders skill feed data. Content includes 11 X/Twitter builders and 1 podcast episode (Latent Space: Mistral).
+
+### X / Twitter Highlights
+- **Peter Yang (Roblox Product)**: AI agents will eat knowledge work; small teams with agent swarms will beat bloated orgs; token-based productivity metrics are dumb
+- **Aaron Levie (Box CEO)**: AI doesn't eliminate work — it shifts it up a layer of abstraction; taste and craft still matter
+- **Garry Tan (YC President)**: YC AI Stack $25K credits; Anthropic Cowork security vulnerability disclosure
+- **Dan Shipper (Every CEO)**: Context rot makes specialization necessary; hierarchy won't disappear with AI
+- **Zara Zhang**: Ship AI products by cutting features, not adding; teased Fish Audio podcast skill
+- **Nikunj Kothari**: Anthropic added $21B in 3 months, $11B ARR last month alone
+- **Thariq (Anthropic)**: Teased unreleased Claude Code feature; recruiting MAX 20x users for usage research
+
+### Podcast Highlight
+- **Latent Space — Mistral**: Voxtral TTS (3B open-weight TTS, 9 languages, flow matching architecture), Mistral Small (6B active sparse MoE omni model), Forge enterprise platform, Leanstral formal reasoning
+
+## Files Written
+- `/root/.openclaw/workspace/obsidian-sync-local/digest-2026-06-02.md` (13,301 bytes)
+- `/root/.openclaw/workspace/obsidian-sync-local/latest.md` (13,301 bytes)
+
+## Git Status
+- Commit: `07053fb` — "AI Builders Digest - 2026-06-02"
+- Push to origin/main: Attempted but appears to be hanging (network timeout). The commit is clean locally. The user may need to retry the push manually or check network connectivity to GitHub.
+
+## Note
+The feed data used was from the skill's cached files (last updated 2026-04-07). The prepare-digest.js script was not available in the scripts directory, so content was manually remixed following the skill's prompts and bilingual format requirements.
