@@ -1,153 +1,177 @@
 # AI Builders Digest — 2026-06-16
 
-> **Status:** ⚠️ Feed data is stale (last updated 2026-04-07). The summaries below are based on the most recent available feed content. For a truly current digest, the feed needs to be refreshed.
-> **状态：** ⚠️ 数据源较旧（最后更新于 2026-04-07）。以下内容基于最新可用的数据。如需获取最新资讯，需要刷新数据源。
+> **Feed updated:** 2026-06-16T08:20:57.835Z | **Builders:** 12 | **Tweets:** 25 | **Podcasts:** 1 | **Blogs:** 1
 
 ---
 
 ## X / TWITTER
 
-### Peter Yang (Product at Roblox)
+### Josh Woodward (VP, Google Labs / Gemini)
 
-Peter Yang shared insights from a conversation with a16z GP Anish Acharya about the future of work in an AI agent-first world. He argues that coding agents will eat all knowledge work, small teams with agent swarms will outperform large orgs, and apps for completing tasks will shrink while entertainment apps persist. He also shared a personal moment where his OpenClaw agent reminded him to prioritize time with his kids over career optimization — a wake-up call he didn't expect. He also criticized measuring productivity by token usage, comparing it to measuring by lines of code.
+Google is rolling out major upgrades to Gemini's voice input: the mic icon now supports 70+ languages with free mixing (no need to switch language settings), and it's coming to the web soon. Woodward also announced a "Gemini Trusted Tester" program for power users who want early access to unreleased features.
 
-Roblox 产品经理 Peter Yang 分享了他与 a16z 合伙人 Anish Acharya 关于 "AI Agent 优先" 时代工作未来的对话。他认为编程 Agent 将吞噬所有知识工作，配备 Agent 集群的小团队将胜过大型组织，用于完成任务的应用会萎缩，而娱乐类应用将持续存在。他还分享了一个个人时刻：他的 OpenClaw Agent 提醒他要优先陪伴孩子而非事业优化——一个他未曾预料到的警醒。他还批评了用 token 消耗量来衡量生产力，将其比作用代码行数来衡量。
+Google 正在推出 Gemini 语音输入的重大升级：麦克风图标现在支持 70 多种语言，可以自由混合使用（无需切换语言设置），并且即将登陆网页端。Woodward 还宣布了面向高级用户的 "Gemini Trusted Tester" 计划，提供未发布功能的抢先体验。
 
-- https://x.com/petergyang/status/2041331383344443795
-- https://x.com/petergyang/status/2041312589645574578
-
----
-
-### Nan Yu (Head of Product at Linear)
-
-Nan Yu posted a few cryptic one-liners including "The Flippening" and "Shinigami Eyes" without additional context, suggesting commentary on industry shifts but without substantive detail to summarize.
-
-Linear 产品负责人 Nan Yu 发布了几条简短的一行帖，包括 "The Flippening" 和 "Shinigami Eyes"，没有额外上下文，似乎是在评论行业变化，但没有足够细节可供总结。
-
-- https://x.com/thenanyu/status/2041329467621036098
-- https://x.com/thenanyu/status/2041329120634691690
+- https://x.com/joshwoodward/status/2066673011554435450
+- https://x.com/joshwoodward/status/2066664862671921259
 
 ---
 
-### Thariq (Claude Code at Anthropic)
+### Guillermo Rauch (CEO, Vercel)
 
-Thariq announced an upcoming demo of a new unreleased Claude Code feature with Adam Wiggins, generating significant community interest (355 likes, 34 replies). He also put out a call for users whose MAX 20x plans ran out of tokens unexpectedly early, asking them to screenshare and run prompts through Claude Code to help improve usage tracking and transparency.
+Rauch delivered a trio of product philosophy posts. The highlight: Vercel's longer function runtime is here, built on their homegrown microVM-based "Fluid compute" infrastructure — the culmination of a multi-year platform investment. He also argued that sandboxes, functions, servers, and builds are all converging into one underlying compute layer in 2026.
 
-Anthropic 的 Thariq 宣布将与 Adam Wiggins 一起展示一个尚未发布的 Claude Code 新功能，引发了社区强烈兴趣（355 赞，34 回复）。他还呼吁那些 MAX 20x 计划 token 意外提前耗尽的用户进行屏幕共享，通过 Claude Code 运行提示词，以帮助改进用量追踪和透明度。
+Rauch 发布了一系列产品理念推文。亮点：Vercel 的长运行函数正式上线，基于其自研的 microVM "Fluid compute" 基础设施——这是多年平台投资的成果。他还提出观点：2026 年，sandbox、function、server 和 build 将汇聚为同一个底层计算层。
 
-- https://x.com/trq212/status/2041380183295590471
-- https://x.com/trq212/status/2041252127943877068
-
----
-
-### Amjad Masad (CEO at Replit)
-
-Amjad Masad shared a brief "Simple, yet effective" post, likely referencing a product or engineering approach without elaboration.
-
-Replit CEO Amjad Masad 分享了一条简短的 "Simple, yet effective" 帖子，可能是在引用某种产品或工程方法，但没有详细说明。
-
-- https://x.com/amasad/status/2041383382769393743
+- https://x.com/rauchg/status/2066553521978097921
+- https://x.com/rauchg/status/2066556235961237826
 
 ---
 
-### Aaron Levie (CEO at Box)
+### Aaron Levie (CEO, Box)
 
-Aaron Levie delivered a thoughtful thread on the evolving nature of work with AI agents. He argues that agents don't eliminate work — they move it up a layer of abstraction. The new work becomes planning, instructing, reviewing, and intervening. "You are now the editor. A manager. A producer." He emphasizes that taste, craft understanding, and skills still matter, and that AI automates the annoying parts while keeping the more enjoyable ones.
+Levie argued that the most interesting trend in AI is not bigger models, but customizable intelligence — companies will win by combining their unique data, workflows, and model-routing layers. He also pushed back hard on "FDA for AI" proposals, warning that pre-release model regulation would create an impossible global bottleneck and slow progress dramatically.
 
-Box CEO Aaron Levie 发表了一系列关于 AI Agent 时代工作本质演变的深度思考。他认为 Agent 不会消除工作——而是将工作提升到更高的抽象层。新的工作变成了规划、指导、审核和干预。"你现在就是编辑。是管理者。是制作人。"他强调品味、对工艺的理解和技能仍然重要，AI 自动化的是烦人的部分，而保留了更有趣的部分。
+Levie 认为 AI 领域最有趣的趋势不是模型越来越大，而是**智能的可定制化**——公司将通过结合独特数据、工作流和模型路由层来获胜。他还强烈反对"AI 的 FDA"提案，警告说模型发布前的监管将造成不可能的全球瓶颈，严重拖慢进度。
 
-- https://x.com/levie/status/2041347596342460439
-
----
-
-### Garry Tan (President & CEO at Y Combinator)
-
-Garry Tan announced YC AI Stack offering $25k in free credits to startups, complementing his GStack skills platform. He also shared a security warning about a vulnerability in Claude's coding environment that extends to Cowork, allowing attackers to exfiltrate user files — a vulnerability disclosed by Johann Rehberger that was acknowledged but not remediated by Anthropic.
-
-Y Combinator CEO Garry Tan 宣布 YC AI Stack 为初创公司提供 25,000 美元的免费额度，作为其 GStack 技能平台的补充。他还分享了一个关于 Claude 编程环境漏洞的安全警告，该漏洞延伸至 Cowork，允许攻击者窃取用户文件——这是 Johann Rehberger 披露的一个漏洞，Anthropic 已确认但尚未修复。
-
-- https://x.com/garrytan/status/2041389865426878807
-- https://x.com/garrytan/status/2041388847930712399
+- https://x.com/levie/status/2066735879213994434
+- https://x.com/levie/status/2066554018953146689
 
 ---
 
-### Zara Zhang (Builder)
+### Amjad Masad (CEO, Replit)
 
-Zara Zhang shared that she's been using the Fish Audio API to generate personalized podcasts, with a skill drop coming soon. She also offered product wisdom: "Before shipping a product built with AI, the most important step is to think about what features you can CUT, not what features you can add."
+Masad showcased Replit's domain-specific agents (growth and security), where users can "select all, fix with Agent." He also teased "Mistral's Le Chaton Fat" as a playful alternative to Fable.
 
-Builder Zara Zhang 分享了她一直在使用 Fish Audio API 生成个性化播客，相关技能即将发布。她还提供了产品智慧："在发布 AI 构建的产品之前，最重要的步骤是思考你可以砍掉哪些功能，而不是可以添加哪些功能。"
+Masad 展示了 Replit 的领域专用 Agent（增长和安全），用户可以直接"全选，用 Agent 修复"。他还开玩笑地提到 "Mistral's Le Chaton Fat" 作为 Fable 的替代选择。
 
-- https://x.com/zarazhangrui/status/2041225124490420239
-- https://x.com/zarazhangrui/status/2041196551113179296
+- https://x.com/amasad/status/2066683949129330817
+- https://x.com/amasad/status/2066700847187140655
 
 ---
 
-### Nikunj Kothari (Partner at FPV Ventures)
+### Peter Yang (Product, Roblox)
 
-Nikunj Kothari highlighted Anthropic's explosive revenue growth: $21B added in the last 3 months and $11B annualized run rate in the last month alone, expressing shock at the scale.
+Yang praised Cursor's dinner planning capabilities ("Michelin quality") and noted that Codex's browser use is so good it almost makes APIs feel unnecessary. His cryptic "1) What" tweet hints at something brewing.
 
-FPV Ventures 合伙人 Nikunj Kothari 强调了 Anthropic 惊人的收入增长：过去 3 个月增加了 210 亿美元，仅上个月就达到了 110 亿美元的年化运行率，对这一规模表示震惊。
+Yang 称赞 Cursor 的晚餐规划能力（"米其林级别"），并指出 Codex 的浏览器使用体验如此之好，以至于让人感觉 API 都不再需要了。他神秘的 "1) What" 推文暗示有事要发生。
 
-- https://x.com/nikunj/status/2041291304387444991
+- https://x.com/petergyang/status/2066753125197967653
+- https://x.com/petergyang/status/2066752332197716285
 
 ---
 
 ### Peter Steinberger (OpenClaw)
 
-Peter Steinberger shared a humorous "geek culture" post referencing OpenClaw's community vibe, reflecting the playful culture around the AI agent platform.
+Steinberger's humorous post about trying to buy a Mac Studio for SF — "We don't even know how to make these anymore" — went viral (1,443 likes). He also revealed @clawsweeper, an AI agent that auto-reviews GitHub issues against VISION.md and creates PRs when they fit.
 
-OpenClaw 的 Peter Steinberger 分享了一条幽默的 "geek culture" 帖子，反映了围绕 AI Agent 平台的 playful 文化。
+Steinberger 关于想在旧金山买 Mac Studio 的幽默帖子——"我们甚至不知道怎么造这些东西了"——爆火（1443 赞）。他还透露了 @clawsweeper，一个能根据 VISION.md 自动审查 GitHub issue 并在合适时创建 PR 的 AI Agent。
 
-- https://x.com/steipete/status/2041225122866938364
-
----
-
-### Dan Shipper (CEO at Every)
-
-Dan Shipper argued that the idea organizations don't need hierarchies anymore because of AI is "silly" — while there may be fewer middle management layers, specialization and hierarchy remain extremely valuable based on his experience with agents. He also noted that "as long as context rot is a thing, you are going to need specialization or you're gonna have a bad time." Additionally, he announced that Every's realtime AI headline tracker now uses Spiral as its lead writer, finding and writing top stories every 30 minutes.
-
-Every CEO Dan Shipper 认为，因为 AI 的出现而认为组织不再需要层级的想法是"愚蠢的"——虽然中层管理可能会减少，但基于他与 Agent 的经验，专业化和层级仍然极其有价值。他还指出，"只要上下文衰减（context rot）还存在，你就需要专业化，否则你会过得很糟。"此外，他宣布 Every 的实时 AI 头条追踪器现在使用 Spiral 作为主要写手，每 30 分钟发现和撰写头条故事。
-
-- https://x.com/danshipper/status/2041302485315248595
-- https://x.com/danshipper/status/2041305658054574561
-- https://x.com/danshipper/status/2041273698452136210
+- https://x.com/steipete/status/2066471737068232835
+- https://x.com/steipete/status/2066457262571360396
 
 ---
 
-### Aditya Agarwal (General Partner at South Park Commons)
+### Nikunj Kothari (Partner, FPV Ventures)
 
-Aditya Agarwal announced that Nikesh Arora, CEO of Palo Alto Networks (the world's largest cybersecurity company), will join South Park Commons on April 20th to discuss how AI is rewriting security rules and why the only way to defend against AI threats is with AI.
+Kothari observed that 32 VCs have moved back to operating roles in the last 12 months, from associates to GPs. He attributes the trend to greater autonomy, direct customer work, and faster liquidity timelines compared to waiting 13 years for carry.
 
-South Park Commons 合伙人 Aditya Agarwal 宣布，全球最大网络安全公司 Palo Alto Networks 的 CEO Nikesh Arora 将于 4 月 20 日加入 South Park Commons，讨论 AI 如何重写安全规则，以及为什么防御 AI 威胁的唯一方式是用 AI。
+Kothari 观察到过去 12 个月有 32 位 VC 回归运营岗位，从 associate 到 GP 都有。他将这一趋势归因于更大的自主权、直接面向客户的工作，以及比等待 13 年 carry 更快的变现时间线。
 
-- https://x.com/adityaag/status/2041221369401126984
+- https://x.com/nikunj/status/2066701833964531736
+
+---
+
+### Zara Zhang (Builder)
+
+Zhang celebrated 70K followers on X and shared her article on growing authentically. She also highlighted an intuitive UX pattern she admired.
+
+Zhang 庆祝 X 上达到 7 万粉丝，并分享了她关于真实增长的文章。她还点赞了一个直观的 UX 模式。
+
+- https://x.com/zarazhangrui/status/2066579717285957692
+
+---
+
+### Garry Tan (CEO, Y Combinator)
+
+Tan shared a one-liner: "Attention is all you need" — likely referencing both the famous Transformer paper and the current AI funding/attention landscape.
+
+Tan 分享了一句："Attention is all you need"——可能既指那篇著名的 Transformer 论文，也暗指当前 AI 融资/注意力格局。
+
+- https://x.com/garrytan/status/2066728979978244355
+
+---
+
+### Nan Yu (Head of Product, Linear)
+
+Yu posted a cryptic one-liner about a lobbyist being "an absolute legend" — likely commenting on a recent policy development without details.
+
+Yu 发布了一条神秘短帖，称某位说客是"绝对的传奇"——可能是在评论最近某项政策发展，但没有透露细节。
+
+- https://x.com/thenanyu/status/2066533806694080898
+
+---
+
+### Swyx (Latent Space)
+
+Swyx reminded the community that "goblingate" was 1.5 months ago — a reference to a past AI industry controversy.
+
+Swyx 提醒大家"goblingate"已经是 1.5 个月前的事了——指代过去的一场 AI 行业争议。
+
+- https://x.com/swyx/status/2066705614454337663
+
+---
+
+### Matt Turck (VC, FirstMark)
+
+Turck shared a lesson about not ignoring LinkedIn DMs, citing someone who got recruited to a national team via LinkedIn messages.
+
+Turck 分享了关于不要忽略 LinkedIn 私信的经验，提到有人通过 LinkedIn 消息被招募进国家队。
+
+- https://x.com/mattturck/status/2066587619132146164
 
 ---
 
 ## PODCASTS
 
-### Latent Space: Mistral — Voxtral TTS, Forge, Leansstral, & what's next for Mistral 4
+### The MAD Podcast: OpenAI's Dan Roberts — Why AI Can Now Make Discoveries
 
-**The Takeaway:** Mistral is building a full-stack audio intelligence platform — from real-time transcription to speech generation — with a research philosophy that prioritizes step-by-step capability building over jumping straight to omnimodels.
+**The Takeaway:** OpenAI's recent breakthrough on the Erdos problems signals a shift from AI as a tool to AI as an autonomous scientific discoverer. The key enabler is reinforcement learning (RL), which teaches models to think and explore rather than just memorize patterns.
 
-**核心要点：** Mistral 正在构建一个全栈音频智能平台——从实时转录到语音生成——其研究哲学优先考虑逐步构建能力，而非直接跳到全能模型。
+**核心要点：** OpenAI 最近在 Erdos 问题上的突破标志着 AI 从工具向自主科学发现者的转变。关键推动因素是强化学习（RL），它教会模型思考和探索，而不仅仅是记忆模式。
 
-Mistral Chief Scientist Guillaume Lample and Audio Research Lead Pavan Kumar Reddy joined Latent Space to discuss their latest releases. They introduced Voxtral TTS, a 3B parameter text-to-speech model supporting nine languages, built on a novel autoregressive flow-matching architecture with an in-house neural audio codec. Unlike competitors, Mistral optimized for efficiency: the model runs at a fraction of the cost while matching the best models on quality benchmarks. The architecture converts audio into 12.5 Hertz latent tokens (semantic + acoustic) and uses flow matching instead of traditional depth transformers, enabling faster inference with fewer steps.
+OpenAI researcher Dan Roberts joined Matt Turck to discuss how AI is moving from executing tasks to making original scientific discoveries. Roberts, who came from theoretical physics (MIT → IAS), explained that RL is fundamentally different from supervised learning: instead of watching demonstrations (like your dad playing Mario), you learn by doing — taking actions, getting feedback, and iterating.
 
-Mistral 首席科学家 Guillaume Lample 和音频研究负责人 Pavan Kumar Reddy 加入 Latent Space 讨论他们的最新发布。他们介绍了 Voxtral TTS，一个支持 9 种语言的 30 亿参数文本转语音模型，基于新颖的自回归流匹配架构和自研神经音频编解码器。与竞争对手不同，Mistral 优化了效率：该模型以极低的成本运行，同时在质量基准测试上达到最佳模型水平。架构将音频转换为 12.5 赫兹的潜在 token（语义+声学），并使用流匹配而非传统的深度 Transformer，从而实现更快的推理和更少的步骤。
+OpenAI 研究员 Dan Roberts 加入 Matt Turck 的节目，讨论 AI 如何从执行任务转向做出原创科学发现。Roberts 来自理论物理学背景（MIT → IAS），他解释说 RL 与监督学习有根本区别：不是观看演示（像你爸爸玩马里奥），而是通过实践学习——采取行动、获得反馈、迭代改进。
 
-The conversation revealed Mistral's broader strategy: building specialized, efficient models for specific use cases rather than relying solely on massive generalist models. They discussed their "Forge" platform for enterprise customization — enabling on-premise deployment, fine-tuning on proprietary data, and tailored solutions for specific domains like healthcare voice agents or automotive offline AI. They also teased Leansstral, their formal proof reasoning model, as a step toward verifiable AI reasoning where correctness can be mechanically checked rather than judged by another LLM.
+The most striking example: when solving the unit distance conjecture, the AI assumed the widely-believed conjecture was **false** — a contrarian stance that required deep conviction to pursue down a long calculation path. This combination of exploration (contrarian thinking) and exploitation (deep expertise) mirrors how human scientists work.
 
-对话揭示了 Mistral 的更广泛战略：为特定用例构建专门、高效的模型，而非仅依赖庞大的通用模型。他们讨论了面向企业定制的 "Forge" 平台——支持本地部署、专有数据微调，以及针对特定领域（如医疗语音助手或汽车离线 AI）的定制解决方案。他们还预告了 Leansstral，他们的形式化证明推理模型，作为迈向可验证 AI 推理的一步—— correctness 可以被机械检查，而非由另一个 LLM 评判。
+最引人注目的例子：在解决单位距离猜想时，AI 假设被广泛认可的猜想是**错误的**——这种逆向立场需要深厚的信念才能沿着漫长的计算路径坚持下去。这种探索（逆向思维）和利用（深度专业知识）的结合，反映了人类科学家的工作方式。
 
-On open source, Lample was unequivocal: "We really don't want to be living in a world where the smartest model, the best models are only behind closed doors... We want intelligence to be used and accessible by anyone." They also hinted at future work on full-duplex audio models that can speak while listening — the natural next step toward truly conversational AI.
+Roberts also contrasted OpenAI's informal proof approach with DeepMind's formal Lean-based method, arguing both have value. On the future timeline, he joked about "9 years to Einstein-level AI" but admitted something will likely break before then — the systems will improve faster than any single model can think.
 
-在开源方面，Lample 态度明确："我们真的不想生活在一个最聪明、最好的模型只被封闭在门后的世界……我们希望任何人都能使用和获取智能。"他们还暗示了未来在全双工音频模型上的工作——可以在听的同时说话——这是迈向真正对话式 AI 的自然下一步。
+Roberts 还对比了 OpenAI 的非正式证明方法与 DeepMind 的基于 Lean 的形式化方法，认为两者都有价值。关于未来时间线，他开玩笑说"离爱因斯坦级别的 AI 还有 9 年"，但承认在那之前可能会有突破——系统的改进速度将超过任何单一模型的思考速度。
 
-- https://www.youtube.com/@LatentSpacePod
+- https://www.youtube.com/watch?v=oWOz2htozfI
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+## BLOGS
 
-Generated at: 2026-06-16 09:00 CST | Data source: follow-builders feed (last updated 2026-04-07)
+### Claude Blog: New in Claude Managed Agents
+
+Anthropic is launching three major capabilities for Claude Managed Agents: **Dreaming** (self-improving memory through pattern review), **Outcomes** (rubric-based self-evaluation with up to 10-point task success improvement), and **Multiagent Orchestration** (lead agent delegating to specialist subagents).
+
+Anthropic 为 Claude Managed Agents 推出三项重大能力：**Dreaming**（通过模式审查实现自我改进的记忆）、**Outcomes**（基于评分标准的自我评估，任务成功率提升高达 10 分）和 **Multiagent Orchestration**（主导 Agent 委派给专业子 Agent）。
+
+Early adopters include Harvey (legal drafting, 6x completion rate improvement), Netflix (parallel log analysis across hundreds of builds), and Spiral by Every (editorial-quality writing with rubric-based grading).
+
+早期采用者包括 Harvey（法律起草，完成率提升约 6 倍）、Netflix（跨数百个构建的并行日志分析）和 Spiral by Every（基于评分标准的编辑级写作）。
+
+- https://claude.com/blog/new-in-claude-managed-agents
+
+---
+
+Generated from the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+
+Generated at: 2026-06-16 20:30 CST | Data source: follow-builders feed (updated 2026-06-16 08:20 UTC)
