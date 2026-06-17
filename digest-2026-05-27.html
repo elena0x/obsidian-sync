@@ -17,6 +17,8 @@
     <nav class="breadcrumb">
         <div class="container">
             <a href="index.html">← All Digests</a>
+            <span style="color: var(--text-muted); margin: 0 8px;">/</span>
+            <span style="color: var(--text-muted);">May 27, 2026</span>
         </div>
     </nav>
 
@@ -142,5 +144,21 @@
             <p><a href="https://github.com/zarazhangrui/follow-builders" target="_blank">View Source</a></p>
         </div>
     </footer>
+    
+    <a href="#" class="back-to-top" id="backToTop" title="Back to top">↑</a>
+    <script>
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        backToTop.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
