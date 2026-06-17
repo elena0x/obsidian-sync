@@ -398,7 +398,7 @@ def parse_markdown_digest(content, filename=""):
             entry_content = '\n'.join(entry_lines[1:])
             entry_content = re.sub(r'^---+\n?', '', entry_content.strip())
             
-            links = re.findall(r'- (https?://\S+)', entry_content)
+            links = re.findall(r'https?://\S+', entry_content)
             
             paragraphs = [p.strip() for p in entry_content.split('\n\n') if p.strip()]
             
