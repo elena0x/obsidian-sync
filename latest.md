@@ -1,78 +1,85 @@
-# AI Builders Digest — July 3, 2026
+# AI Builders Digest — July 5, 2026
 
 ---
 
-## X / Twitter
+## X / TWITTER
 
-**Google VP Josh Woodward** (Google Labs, Gemini App, Google AI Studio) announced a major upgrade to Gemini's microphone icon on Android and iOS — now supporting 70+ languages with free mixing, no language setting changes needed, and it still won't interrupt you. He also teased that this is coming to the Web in about a week, and opened sign-ups for the Gemini Trusted Tester program for power users who want early access to unreleased features.
+### Swyx (Latent Space, DX Tips, Cognition, Temporal, AI Engineer)
+Swyx dropped a sharp observation: "goblingate was 1.5 months ago" — a reminder of how fast AI discourse moves and how quickly controversies fade from collective memory.
+https://x.com/swyx/status/2066705614454337663
 
-- https://x.com/joshwoodward/status/2066673011554435450
-- https://x.com/joshwoodward/status/2066673191783665722
-- https://x.com/joshwoodward/status/2066664862671921259
+### Josh Woodward (VP, Google Labs / Gemini App / AI Studio)
+Google's mic icon just got a major upgrade on Android and iOS — now supporting 70+ languages with free mixing, no language setting changes needed, and it still won't interrupt you. Also teased web availability coming in about a week. Plus, Google is opening limited slots for the Gemini Trusted Tester program for power users who want unreleased features early.
+https://x.com/joshwoodward/status/2066673011554435450
+https://x.com/joshwoodward/status/2066664862671921259
 
-**Replit CEO Amjad Masad** highlighted Replit's domain-specific agents — growth agents surfacing SEO issues, security agents finding vulnerabilities — with his favorite workflow being "select all, fix with Agent." He also joked about Mistral's Le Chaton Fat being a Fable alternative.
+### Peter Yang (AI Tutorials & Interviews)
+Peter gave Cursor credit for planning a Michelin-quality dinner. More notably, he observed that Codex browser use is so good it "almost makes me forget APIs are even needed" — a bold take on the shift toward agentic browsing over traditional API integration.
+https://x.com/petergyang/status/2066753125197967653
 
-- https://x.com/amasad/status/2066683949129330817
-- https://x.com/amasad/status/2066700847187140655
+### Nan Yu (Head of Product, Linear)
+Nan Yu reacted to some regulatory/policy development with: "Whichever lobbyist made this happen is an absolute legend" — suggesting a significant win for the tech industry on the policy front.
+https://x.com/thenanyu/status/2066533806694080898
 
-**Vercel CEO Guillermo Rauch** made a bold claim: 2026 is the year serverless and servers finally converge. He explained that sandbox, function, server, and build are all expressions of the same underlying compute infrastructure — with tweaks to load balancing, concurrency, persistence, and overcommit. He also announced longer Vercel function runtime, which he described as looking like "an innocent tweak of a constant" but actually representing the conclusion of a multi-year compute platform investment on their homegrown microVM-based Fluid compute infrastructure.
+### Amjad Masad (CEO, Replit)
+Amjad highlighted Replit's domain-specific agents — growth agents surfacing SEO issues, security agents finding vulnerabilities — with his favorite workflow being "select all, fix with Agent." He also took a playful jab at Fable with a reference to "Mistral's Le Chaton Fat."
+https://x.com/amasad/status/2066683949129330817
 
-- https://x.com/rauchg/status/2066556235961237826
-- https://x.com/rauchg/status/2066553521978097921
-- https://x.com/rauchg/status/2066567117562868009
+### Guillermo Rauch (CEO, Vercel)
+Rauch made three big announcements: (1) Vercel Functions now support longer runtimes, powered by their homegrown microVM-based Fluid compute infrastructure — the same stack behind Builds and Sandbox. (2) v0 commits to shipping the best skills by default, aiming to give users "the equivalent of a Vercel product engineer on each prompt," with marketplace and private skill support now available. (3) A unifying vision: sandbox, function, server, build — all expressions of the same underlying compute infrastructure. "2026 is the year serverless and servers finally converge."
+https://x.com/rauchg/status/2066553521978097921
+https://x.com/rauchg/status/2066567117562868009
+https://x.com/rauchg/status/2066556235961237826
 
-**Box CEO Aaron Levie** argued that the most interesting thing happening in AI isn't one model getting smarter — it's that intelligence is becoming increasingly customizable. He believes the companies that win won't be the ones with the biggest models, but the ones that turn intelligence into something uniquely their own. He also made a case for regulating applied uses of AI rather than models themselves, noting that AI capabilities have "near infinite permutations" making purely objective pre-release metrics impractical.
+### Aaron Levie (CEO, Box)
+Levie argued that "the most interesting thing happening in AI isn't that one model is getting smarter — it's that intelligence is becoming increasingly customizable." He believes winners won't be those with the biggest models, but those who turn intelligence into something uniquely their own. He also made the case for regulating applied uses of AI rather than models themselves, noting the near-infinite permutations of model capabilities make universal pre-release metrics impractical. And a short, confident take: "Open source going to win big."
+https://x.com/levie/status/2066735879213994434
+https://x.com/levie/status/2066554018953146689
+https://x.com/levie/status/2066526720480690221
 
-- https://x.com/levie/status/2066735879213994434
-- https://x.com/levie/status/2066554018953146689
-- https://x.com/levie/status/2066526720480690221
+### Garry Tan (President & CEO, Y Combinator)
+Garry Tan posted a simple but loaded reference: "Attention is all you need" — the title of the foundational transformer paper, likely nodding to its enduring relevance in the current AI landscape.
+https://x.com/garrytan/status/2066728979978244355
 
-**YC President & CEO Garry Tan** posted a simple but resonant message: "Attention is all you need" — a nod to the foundational transformer paper that started the modern AI era.
+### Nikunj Kothari (Partner, FPV Ventures)
+Nikunj noted an accelerating trend: he now knows 32 VCs who have moved back to operating roles in the last 12 months. His analysis: from a professional perspective, it makes sense — you work directly with customers and as part of a team. From a comp perspective, why wait 13 years for carry when you can get liquidity much sooner?
+https://x.com/nikunj/status/2066701833964531736
 
-- https://x.com/garrytan/status/2066728979978244355
+### Peter Steinberger (OpenClaw + OpenAI)
+Peter shared a notable automation: whenever someone creates an issue on an OpenClaw open source project, @clawsweeper reviews it and, if it fits the VISION.md, will auto-create and auto-review a PR. He also made a wry observation about Mac Studio availability: "We don't even know how to make these anymore."
+https://x.com/steipete/status/2066457262571360396
+https://x.com/steipete/status/2066471737068232835
 
-**Swyx** (Latent Space, DX Tips, Cognition, AI Dot Engineer) noted that "Goblin Gate" (a major AI industry event) was already 1.5 months ago — a reminder of how fast things move in this space.
-
-- https://x.com/swyx/status/2066705614454337663
-
-**Peter Yang** (Practical AI tutorials, 150K+ readers) praised Cursor AI for planning a "Michelin quality" dinner, and noted that Codex browser use is so good it "almost makes me forget APIs are even needed."
-
-- https://x.com/petergyang/status/2066753125197967653
-- https://x.com/petergyang/status/2066756347438469602
-
-**OpenClaw + OpenAI's Peter Steinberger** showcased @clawsweeper, an agent that reviews issues on open source projects and, if they fit the VISION.md file, automatically creates and auto-reviews PRs. He also shared some cryptic but intriguing posts including "IS THIS A LOOP" and a comment about not knowing "how to make" Mac Studios anymore.
-
-- https://x.com/steipete/status/2066457262571360396
-- https://x.com/steipete/status/2066458424041251244
-- https://x.com/steipete/status/2066471737068232835
-
-**a16z partner Nikunj Kothari** shared an observation that 32 VCs he knows have moved back to operating in the last 12 months, with the pace accelerating. He argues it makes sense professionally — working directly with customers and as a team — and financially, since carry can take 13 years while operating roles offer liquidity much sooner.
-
-- https://x.com/nikunj/status/2066701833964531736
-
-**Linear Head of Product Nan Yu** reacted to what appears to be a notable policy or regulatory development with "Whichever lobbyist made this happen is an absolute legend."
-
-- https://x.com/thenanyu/status/2066533806694080898
-
-**Builder Zara Zhang** (Harvard '17) celebrated reaching 70K followers on X, sharing that she grew her audience while being "completely authentic" by learning and building in public.
-
-- https://x.com/zarazhangrui/status/2066579717285957692
+### Zara Zhang (Builder)
+Zara celebrated hitting 70k followers on X, sharing that she grew her audience while being "completely authentic" and learning/building in public. She also praised some UX as "so intuitive."
+https://x.com/zarazhangrui/status/2066579717285957692
 
 ---
 
-## Podcasts
+## OFFICIAL BLOGS
 
-**The MAD Podcast with Matt Turck — "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries"**
+### Claude Blog
+**New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration**
+Anthropic is launching "dreaming" in Claude Managed Agents as a research preview. Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve. Outcomes, multiagent orchestration, and webhooks are also now available to developers building with Managed Agents.
+https://claude.com/blog/new-in-claude-managed-agents
 
-The Takeaway: Reinforcement learning, not just scale, is what enables AI to make genuine mathematical discoveries.
+---
 
-OpenAI researcher Dan Roberts explains how modern AI systems cracked the Erdős problems — a class of mathematical challenges that have stumped humans for decades. The key insight isn't that models are simply getting bigger. It's that reinforcement learning (RL) creates a fundamentally different kind of intelligence: one that learns by doing rather than by watching demonstrations.
+## PODCASTS
 
-Roberts draws a sharp distinction between two approaches to AI math. OpenAI takes an informal route — letting the model explore and verify proofs through RL, trusting the process to surface valid mathematics. DeepMind, by contrast, uses Lean, a formal proof assistant that requires every step to be mechanically verified. Roberts argues that the OpenAI approach is more powerful because it mirrors how human mathematicians actually work: exploring, making mistakes, and gradually converging on truth.
+### The MAD Podcast with Matt Turck — OpenAI's Dan Roberts: Why AI Can Now Make Discoveries
 
-The broader implication? Intelligence is becoming customizable. The future isn't just bigger models — it's models that can be shaped for specific domains through the combination of pre-training and RL. As Roberts puts it, the companies that win will be the ones that figure out how to turn intelligence into something uniquely their own.
+**The Takeaway:** The real breakthrough in AI isn't just bigger models — it's the combination of pre-training plus reinforcement learning, which enables systems to discover solutions that no human has ever found.
 
-- https://www.youtube.com/watch?v=oWOz2htozfI
+OpenAI researcher Dan Roberts sits down to discuss a genuinely surprising development: AI systems are now solving mathematical problems that have stumped humans for decades, particularly the Erdős problems. What's making this possible isn't raw scale alone, but a shift in how these systems learn.
+
+Roberts explains reinforcement learning as the key paradigm — think of it as learning by doing versus watching demonstrations. A child doesn't learn to ride a bike by studying physics textbooks; they learn by trying, falling, and adjusting. Modern AI is undergoing a similar evolution. The combination of massive pre-training (absorbing patterns from vast data) plus reinforcement learning (trial-and-error optimization) is what makes today's systems capable of genuine discovery rather than just pattern matching.
+
+He also draws an interesting contrast between approaches: OpenAI takes a more informal, human-like approach to math proofs, while DeepMind pursues formal verification through Lean — essentially teaching AI to write proofs that a computer can check for absolute correctness. Both paths are valid, but they reflect different philosophies about what "understanding" means.
+
+The broader implication Roberts emphasizes: intelligence is becoming customizable. The companies that win won't necessarily be the ones with the biggest models, but the ones that can turn intelligence into something uniquely their own.
+
+https://www.youtube.com/watch?v=oWOz2htozfI
 
 ---
 
